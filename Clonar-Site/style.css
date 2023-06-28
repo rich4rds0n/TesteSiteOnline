@@ -1,0 +1,321 @@
+    @font-face {
+        font-display: optional;
+        font-family: Netflix Sans;
+        font-weight: 100;
+        src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Lt.woff2) format("woff2"), url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Lt.woff) format("woff")
+    }
+    
+    body {
+        background-color: #000 !important;
+        font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+        ;
+    }
+    
+    h1 {
+        color: #fff;
+    }
+    
+    header {
+        background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/76c10fc9-7ccd-4fbf-bc59-f16a468921ca/529648c5-e595-4746-af3f-fab3106e3146/BR-pt-20230529-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+        height: 500px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    header a {
+        text-decoration: none;
+    }
+    
+    header a:hover {
+        text-decoration: none;
+        color: white;
+    }
+    
+    header .btn-login:hover {
+        background-color: rgb(202, 15, 24);
+    }
+    
+    .logo {
+        max-height: 105px;
+        position: absolute;
+        top: -10px;
+        left: 180px;
+    }
+    
+    .btn-login {
+        position: absolute;
+        right: 215px;
+        font-size: 0.875rem;
+        font-weight: 500;
+        min-height: 2rem;
+        padding: 0.25rem 1rem;
+        background: rgb(229, 9, 20);
+        color: rgb(255, 255, 255);
+        border-radius: 3px;
+    }
+    
+    .box-background {
+        height: 83.27vh;
+    }
+    
+    .box-background::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.945) 0, rgba(0, 0, 0, 0.452) 60%, rgba(0, 0, 0, 0.945) 100%);
+    }
+    
+    .frase-inicial {
+        position: relative;
+        top: 275px;
+        color: white;
+        text-align: center;
+    }
+    
+    .frase-inicial h1 {
+        font-size: 48px;
+        font-weight: bold;
+    }
+    
+    .frase-inicial h2 {
+        font-size: 26px;
+        font-weight: normal;
+        margin-top: 25px;
+    }
+    
+    .frase-inicial h3 {
+        font-size: 21px;
+        font-weight: normal;
+        margin-top: 25px;
+    }
+    
+    .div-email input {
+        width: 400px;
+        height: 55px;
+        margin-top: 15px;
+        
+        border-radius: 5px;
+        background-color: rgba(0, 0, 0, 0.548);
+    }
+    
+    .div-email input::placeholder {
+        position: relative;
+        left: 10px;
+        color: rgb(177, 177, 177);
+    }
+    
+    .div-email button {
+        width: 180px !important;
+        height: 55px !important;
+        margin-top: 16px;
+        margin-left: 5px;
+        border: none;
+        border-radius: 5px;
+        background-color: rgb(229, 9, 20) !important;
+        font-size: 25px;
+        font-weight: bold;
+        color: white;
+        position: relative;
+        top: 4px;
+    }
+    .flex {
+        display: flex;
+        position: absolute;
+        top: 1000px;
+    }
+    
+    .frases {
+        width: 50%;
+        color: #fff;
+    }
+    
+    .video {
+        width: 50%;
+    }
+    
+    .video video {
+        position: relative;
+        top: -610px;
+        left: 190px;
+        width: 465px;
+        z-index: 0;
+    }
+    
+    .video img {
+        position: relative;
+        top: -230px;
+        left: 105px;
+        z-index: 1;
+    }
+    
+    .frases h1 {
+        position: relative;
+        top: -100px;
+        left: 370px;
+        font-weight: bold;
+        font-size: 48px;
+    }
+    
+    .frases h2 {
+        position: relative;
+        top: -95px;
+        font-size: 24px;
+        left: 370px;
+    }
+    .frases2 h1{
+        position: relative;
+        top: 550px;
+        left: -40px;
+        font-size: 48px;
+        font-weight: bold;
+    }
+    .frases2 h2{
+        position: relative;
+        top: 565px;
+        left: -40px;
+        color: #fff;
+        font-size: 24px;
+    }
+    .video2 video{
+        position: relative;
+        top: 420px;
+        left: -172px;
+        width: 400px;
+    }
+    .video2 img{
+        position: relative;
+        top: 390px;
+        left: 350px;
+        z-index: 1;
+    }
+    .frases3 h1{
+        position: relative;
+        top: 1100px;
+        left: 380px;
+        font-size: 48px;
+        font-weight: bold;
+    }
+    .frases3 h2{
+        position: relative;
+        top: 1120px;
+        left: 370px;
+        font-size: 24px;
+        color: white;
+    }
+    .img3 img{
+        position: relative;
+        top: 980px;
+        left: 420px;
+
+    }
+    #celular  {
+        position: relative;
+        top: 1580px;
+        width: 550px;
+        left: 350px;
+
+    }
+    #poster {
+        position: relative;
+        top: 1710px;
+        width: 60px;
+        left: -72px;
+        z-index: 101;
+    }
+    #gif {
+        position: relative;
+        top: 1710px;
+        width: 45px;
+        left: 100px;
+        z-index: 101;
+    }
+    .fundo-preto {
+        position: absolute;
+        top: 1865px;
+        left: 470px;
+        width: 310px;
+        height: 100px;
+        border: 2px solid rgba(255, 255, 255, 0.2);
+        border-radius: 10px;
+        background-color: rgb(0, 0, 0);
+        color: #000;
+    }
+    .fundo-preto h1{
+        position: relative;
+        font-size: 1rem;
+        left: 90px;
+    }
+    .fundo-preto p {
+        position: relative;
+        font-size: 13px;
+        margin-top: -5px;
+        left: 90px;
+        color: #0071eb;
+    }
+    .frases4 h1 {
+        position: relative;
+        top: 700px;
+        font-size: 48px;
+        left: 920px;
+    }
+    .frases4 h2 {
+        position: relative;
+        top: 715px;
+        font-size: 22px;
+        color: white;
+        left: 920px;
+    }
+    .perguntas {
+        width: 100%;
+        position: relative;
+        top: 3100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .perguntas button {
+        width: 62%;
+        height: 83px;
+        text-align: left;
+        background: rgb(45,45,45);
+        color: white;
+        border: none;
+        margin-bottom: 10px;
+        display: flex;
+    }
+    .perguntas button img {
+        position: relative;
+        left: 800px;
+    }
+    .perguntas button:hover {
+        background-color: rgb(75, 75, 75);
+    }
+    .perguntas h1 {
+        font-size: 50px;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+    .perguntas h2 {
+        font-size: 25px;
+        font-weight:normal;
+        margin-left: 18px;
+    }
+    .perguntas h3 {
+        font-size: 21px;
+        font-weight: normal;
+        margin-top: 35px;
+        color: white;
+    }
+    .email2 {
+        display: flex;
+    }
+    .email2 button {
+        margin-top: 12px;
+        margin-left: 10px;
+        text-align: center;
+    }
